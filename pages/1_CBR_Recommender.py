@@ -5,7 +5,7 @@ import numpy as np
 st.title("Sistem Rekomendasi Kopi Menggunakan CBR")
 
 # Load dataset
-df = pd.read_hdf("../uam/data/Coffe_sales.h5")
+df = pd.read_hdf("/data/coffee_sales.h5")
 
 
 # ============================================================
