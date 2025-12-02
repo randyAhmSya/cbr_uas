@@ -12,7 +12,7 @@ st.write("Analitik transaksi kopi berdasarkan dataset historis.")
 
 # Load Dataset
 try:
-    df = pd.read_csv("../uam/data/Coffe_sales.csv")
+    df = pd.read_csv("data/Coffe_sales.csv")
 except:
     st.error("Dataset tidak ditemukan. Pastikan file berada di folder data/Coffe_sales.csv")
     st.stop()
